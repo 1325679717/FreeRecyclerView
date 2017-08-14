@@ -26,32 +26,22 @@ public class MainActivity extends AppCompatActivity {
         layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
 
         rv.setLayoutManager(layoutManager);
-        objects = new ArrayList<Data>();
-        for (int i = 0;i <100; i++){
-            Data data = new Data();
-            data.setName("iphone "+ (i+1));
-            String[] strs = {"A1","A2","A3","A4","A5","A6","A7","A8","A9","A10","A11"};
-            data.setArray(strs);
-            objects.add(data);
-        }
+
+        initContent();//
+
         TabAdapter adapter = new TabAdapter(objects,rv);
-        HeaderWrapper headerWrapper = new HeaderWrapper(rv,adapter);
+        HeaderWrapper headerWrapper = new HeaderWrapper(rv,adapter);//addHeaderView adapter
 
+        ViewGroup titleView = getTitleView();
+        addTitle(titleView);
 
-        View view = View.inflate(this,R.layout.wide_item,null);
-        view.setBackgroundColor(getResources().getColor(R.color.colorGary_1));
-        TextView textView = (TextView) view.findViewById(R.id.tv);
-        textView.setText("设备");
-        textView.setBackgroundColor(getResources().getColor(R.color.colorGary_1));
-
-        LinearLayout tab_root = (LinearLayout) view.findViewById(R.id.tab_root);
-        addTitle(tab_root);
-
-        headerWrapper.addHeaderView(view);
+        headerWrapper.addHeaderView(titleView);
         rv.setAdapter(headerWrapper);
         rv.addItemDecoration(new DividerItemDecoration(
                 this, DividerItemDecoration.HORIZONTAL_LIST));
     }
+
+    //设置title内容
     private void addTitle(ViewGroup viewGroup){
         int len = 11;
         String[] strs = {"cpu1","cpu2","cpu3","cpu4","cpu5","cpu6","cpu7","cpu8","cpu9","cpu10","cpu11"};
@@ -62,5 +52,24 @@ public class MainActivity extends AppCompatActivity {
             viewGroup.addView(v);
         }
     }
+    private void initContent(){
+        objects = new ArrayList<Data>();
+        for (int i = 0;i <100; i++){
+            Data data = new Data();
+            data.setName("iphone "+ (i+1));//左边的一列
+            String[] strs = {"A1","A2","A3","A4","A5","A6","A7","A8","A9","A10","A11"};//一行
+            data.setArray(strs);
+            objects.add(data);
+        }
+    }
+    private ViewGroup getTitleView(){
+        View view = View.inflate(this,R.layout.wide_item,null);
+        view.setBackgroundColor(getResources().getColor(R.color.colorGary_1));
+        TextView textView = (TextView) view.findViewById(R.id.tv);// 第一列 第一行
+        textView.setText("设备");
+        textView.setBackgroundColor(getResources().getColor(R.color.colorGary_1));
 
+        LinearLayout tab_root = (LinearLayout) view.findViewById(R.id.tab_root);//填充标题(除第一列 第一行之外)
+        return tab_root;
+    }
 }
