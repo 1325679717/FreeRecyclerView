@@ -11,7 +11,7 @@
         android:background="#EDEDED"
         android:gravity="center"
         android:layout_height="50dp"/>
-    <com.example.administrator.free_recyclerview.AnimateScrollView android:layout_width="wrap_content"
+    <com.example.free_recyclerview.view.AnimateScrollView android:layout_width="wrap_content"
         android:id="@+id/scrollView"
         android:scrollbars="none"
         android:requiresFadingEdge="none"
@@ -22,5 +22,5 @@
             android:orientation="horizontal"
             android:layout_width="100dp"
             android:layout_height="50dp"></LinearLayout>
-        </com.example.administrator.free_recyclerview.AnimateScrollView >
+        </com.example.free_recyclerview.view.AnimateScrollView >
 </LinearLayout>

@@ -1,4 +1,4 @@
-package com.example.administrator.free_recyclerview;
+package com.example.free_recyclerview;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,6 +7,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.example.free_recyclerview.adapter.HeaderWrapper;
+import com.example.free_recyclerview.adapter.TabAdapter;
+import com.example.free_recyclerview.bean.Data;
+import com.example.free_recyclerview.view.DividerItemDecoration;
+import com.example.free_recyclerview.view.FreeRecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         TabAdapter adapter = new TabAdapter(objects,rv);
         HeaderWrapper headerWrapper = new HeaderWrapper(rv,adapter);//addHeaderView adapter
 
-        ViewGroup titleView = getTitleView();
+        View titleView = getTitleView();
         addTitle(titleView);
 
         headerWrapper.addHeaderView(titleView);
@@ -42,14 +48,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //设置title内容
-    private void addTitle(ViewGroup viewGroup){
+    private void addTitle(View view){
+
+        LinearLayout tab_root = (LinearLayout) view.findViewById(R.id.tab_root);//填充标题(除第一列 第一行之外)
         int len = 11;
         String[] strs = {"cpu1","cpu2","cpu3","cpu4","cpu5","cpu6","cpu7","cpu8","cpu9","cpu10","cpu11"};
         for (int i = 0;i< len;i++){
             View v = View.inflate(this,R.layout.wide_table,null);
             TextView textView = (TextView) v.findViewById(R.id.wide_content);
             textView.setText(strs[i]);
-            viewGroup.addView(v);
+            tab_root.addView(v);
         }
     }
     private void initContent(){
@@ -62,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
             objects.add(data);
         }
     }
-    private ViewGroup getTitleView(){
+    private View getTitleView(){
         View view = View.inflate(this,R.layout.wide_item,null);
         view.setBackgroundColor(getResources().getColor(R.color.colorGary_1));
         TextView textView = (TextView) view.findViewById(R.id.tv);// 第一列 第一行
@@ -70,6 +78,6 @@ public class MainActivity extends AppCompatActivity {
         textView.setBackgroundColor(getResources().getColor(R.color.colorGary_1));
 
         LinearLayout tab_root = (LinearLayout) view.findViewById(R.id.tab_root);//填充标题(除第一列 第一行之外)
-        return tab_root;
+        return view;
     }
 }

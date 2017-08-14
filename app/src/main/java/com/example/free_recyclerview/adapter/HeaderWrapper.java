@@ -1,9 +1,12 @@
-package com.example.administrator.free_recyclerview;
+package com.example.free_recyclerview.adapter;
 
 import android.support.v4.util.SparseArrayCompat;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.example.free_recyclerview.R;
 
 /**
  * Created by Administrator on 2017/8/7.
@@ -52,6 +55,7 @@ public class HeaderWrapper<T> extends RecyclerView.Adapter<RecyclerView.ViewHold
 
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
+        Log.i("onBindViewHolder",String.valueOf(position));
         if (isHeaderViewPos(position)){
             View v = holder.itemView.findViewById(R.id.scrollView);
             v.setTag(recyclerView);

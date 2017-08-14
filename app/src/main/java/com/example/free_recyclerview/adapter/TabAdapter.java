@@ -1,10 +1,14 @@
-package com.example.administrator.free_recyclerview;
+package com.example.free_recyclerview.adapter;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.example.free_recyclerview.R;
+import com.example.free_recyclerview.bean.Data;
+import com.example.free_recyclerview.view.AnimateScrollView;
 
 import java.util.List;
 
