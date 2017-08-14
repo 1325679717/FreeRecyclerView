@@ -1,4 +1,4 @@
-package com.example.administrator.free_recyclerview;
+package com.example.free_recyclerview.view;
 
 import android.content.Context;
 import android.util.AttributeSet;

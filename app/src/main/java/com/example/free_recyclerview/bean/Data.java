@@ -1,4 +1,4 @@
-package com.example.administrator.free_recyclerview;
+package com.example.free_recyclerview.bean;
 
 /**
  * Created by admin on 2016/8/26.

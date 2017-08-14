@@ -1,4 +1,4 @@
-package com.example.administrator.free_recyclerview;
+package com.example.free_recyclerview.view;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -7,6 +7,9 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.view.View;
+
+import com.example.free_recyclerview.R;
+import com.example.free_recyclerview.adapter.HeaderWrapper;
 
 
 /**
