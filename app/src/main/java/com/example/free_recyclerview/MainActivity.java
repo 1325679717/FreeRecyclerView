@@ -50,14 +50,18 @@ public class MainActivity extends AppCompatActivity {
     //设置title内容
     private void addTitle(View view){
 
-        LinearLayout tab_root = (LinearLayout) view.findViewById(R.id.tab_root);//填充标题(除第一列 第一行之外)
+        TextView titleView = (TextView) view.findViewById(R.id.tv);// 第一列 第一行
+        titleView.setText("设备");
+        titleView.setBackgroundColor(getResources().getColor(R.color.colorGary_1));
+
+        LinearLayout tabRoot = (LinearLayout) view.findViewById(R.id.tab_root);//填充标题(除第一列 第一行之外)
         int len = 11;
         String[] strs = {"cpu1","cpu2","cpu3","cpu4","cpu5","cpu6","cpu7","cpu8","cpu9","cpu10","cpu11"};
         for (int i = 0;i< len;i++){
-            View v = View.inflate(this,R.layout.wide_table,null);
+            View v = View.inflate(this,R.layout.wide_table,null);//header
             TextView textView = (TextView) v.findViewById(R.id.wide_content);
             textView.setText(strs[i]);
-            tab_root.addView(v);
+            tabRoot.addView(v);
         }
     }
     private void initContent(){
@@ -71,13 +75,8 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     private View getTitleView(){
-        View view = View.inflate(this,R.layout.wide_item,null);
+        View view = View.inflate(this,R.layout.wide_item,null);//item
         view.setBackgroundColor(getResources().getColor(R.color.colorGary_1));
-        TextView textView = (TextView) view.findViewById(R.id.tv);// 第一列 第一行
-        textView.setText("设备");
-        textView.setBackgroundColor(getResources().getColor(R.color.colorGary_1));
-
-        LinearLayout tab_root = (LinearLayout) view.findViewById(R.id.tab_root);//填充标题(除第一列 第一行之外)
         return view;
     }
 }

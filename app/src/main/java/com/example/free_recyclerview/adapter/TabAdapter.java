@@ -36,9 +36,9 @@ public class TabAdapter extends RecyclerView.Adapter<TabAdapter.AdapterViewHolde
 
         holder.textView.setText(data.getName());
 
-        int count = holder.tab_tv.length;
+        int count = holder.tabTv.length;
         for (int i = 0;i< count;i++){
-            TextView v = holder.tab_tv[i];
+            TextView v = holder.tabTv[i];
             String str = data.getArray()[i];
             v.setText(str);
         }
@@ -51,17 +51,17 @@ public class TabAdapter extends RecyclerView.Adapter<TabAdapter.AdapterViewHolde
     public class AdapterViewHolder extends RecyclerView.ViewHolder{
         TextView textView;
         AnimateScrollView anScrView;
-        LinearLayout tab_root;
-        TextView[] tab_tv;
+        LinearLayout tabRoot;
+        TextView[] tabTv;
         private int len = 11;
         public AdapterViewHolder(View itemView) {
             super(itemView);
             textView = (TextView) itemView.findViewById(R.id.tv);
             anScrView = (AnimateScrollView) itemView.findViewById(R.id.scrollView);
-            tab_root = (LinearLayout) itemView.findViewById(R.id.tab_root);
+            tabRoot = (LinearLayout) itemView.findViewById(R.id.tab_root);
             anScrView.setTag(recyclerView);
-            tab_tv = new TextView[len];
-            addRow(tab_root,tab_tv,len);
+            tabTv = new TextView[len];
+            addRow(tabRoot,tabTv,len);
         }
 
     }

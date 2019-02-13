@@ -22,10 +22,6 @@ public class AnimateScrollView extends HorizontalScrollView {
         super(context, attrs);
         setOverScrollMode(OVER_SCROLL_NEVER);
     }
-
-    int downX;
-    private int mLastXIntercept,mLastYIntercept;
-
     @Override
     protected void onScrollChanged(int l, int t, int oldl, int oldt) {
         super.onScrollChanged(l, t, oldl, oldt);

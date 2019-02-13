@@ -24,7 +24,6 @@ public class FreeRecyclerView extends RecyclerView {
     private HeaderWrapper adapter;
 
     private View mCurrentHeader;
-    private float mHeaderOffset;
 
     public FreeRecyclerView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
