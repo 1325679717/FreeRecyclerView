@@ -1,0 +1,4 @@
+#Fri Feb 15 10:22:56 CST 2019
+base.0=D\:\\play_work\\FreeRecyclerView\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

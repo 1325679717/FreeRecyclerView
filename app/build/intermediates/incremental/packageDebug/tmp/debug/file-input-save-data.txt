@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Feb 13 17:18:53 CST 2019
+0.baseType=DIRECTORY
+0.base=D\:\\play_work\\FreeRecyclerView\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

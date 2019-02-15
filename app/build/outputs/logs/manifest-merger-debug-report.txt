@@ -1,0 +1,146 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\0da8a024e328e8702a404c0a1920259e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\8e86eadf0de051dab988326511d8f8df\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-beta1.aar\85d92bc765a4e171534574e18f22df79\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\d5de3e1d2fc2e00c46bbe35bb017b158\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\850dd6ed2b6c508f3e014c9f3ad499f0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\2f0b8ffeaff50c8f577417a2575a71ba\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\4d1961c3f2c464cd8018797aa187f83e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\e78a6653f5b184895c185594f05ca377\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\604150471559453551cea53bac2136da\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\e510cec66763ef38a64c7b563b3ae4d0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\c996859c05cb8009ceae7a0534906eda\AndroidManifest.xml:17:1-31:12
+INJECTED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml
+		INJECTED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml
+		ADDED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml
+		ADDED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\0da8a024e328e8702a404c0a1920259e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\0da8a024e328e8702a404c0a1920259e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\8e86eadf0de051dab988326511d8f8df\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\8e86eadf0de051dab988326511d8f8df\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-beta1.aar\85d92bc765a4e171534574e18f22df79\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-beta1.aar\85d92bc765a4e171534574e18f22df79\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\d5de3e1d2fc2e00c46bbe35bb017b158\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\d5de3e1d2fc2e00c46bbe35bb017b158\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\850dd6ed2b6c508f3e014c9f3ad499f0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\850dd6ed2b6c508f3e014c9f3ad499f0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\2f0b8ffeaff50c8f577417a2575a71ba\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\2f0b8ffeaff50c8f577417a2575a71ba\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\4d1961c3f2c464cd8018797aa187f83e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\4d1961c3f2c464cd8018797aa187f83e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\e78a6653f5b184895c185594f05ca377\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\e78a6653f5b184895c185594f05ca377\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\604150471559453551cea53bac2136da\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\604150471559453551cea53bac2136da\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\e510cec66763ef38a64c7b563b3ae4d0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\e510cec66763ef38a64c7b563b3ae4d0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\c996859c05cb8009ceae7a0534906eda\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\c996859c05cb8009ceae7a0534906eda\AndroidManifest.xml:25:5-29:19
+	android:supportsRtl
+		ADDED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.free_recyclerview.MainActivity
+ADDED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml
+INJECTED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\0da8a024e328e8702a404c0a1920259e\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\0da8a024e328e8702a404c0a1920259e\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\8e86eadf0de051dab988326511d8f8df\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\8e86eadf0de051dab988326511d8f8df\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-beta1.aar\85d92bc765a4e171534574e18f22df79\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-beta1.aar\85d92bc765a4e171534574e18f22df79\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\d5de3e1d2fc2e00c46bbe35bb017b158\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\d5de3e1d2fc2e00c46bbe35bb017b158\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\850dd6ed2b6c508f3e014c9f3ad499f0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\850dd6ed2b6c508f3e014c9f3ad499f0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\2f0b8ffeaff50c8f577417a2575a71ba\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\2f0b8ffeaff50c8f577417a2575a71ba\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\4d1961c3f2c464cd8018797aa187f83e\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\4d1961c3f2c464cd8018797aa187f83e\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\e78a6653f5b184895c185594f05ca377\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\e78a6653f5b184895c185594f05ca377\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\604150471559453551cea53bac2136da\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\604150471559453551cea53bac2136da\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\e510cec66763ef38a64c7b563b3ae4d0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\e510cec66763ef38a64c7b563b3ae4d0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\c996859c05cb8009ceae7a0534906eda\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\c996859c05cb8009ceae7a0534906eda\AndroidManifest.xml:21:5-23:58
+INJECTED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml
+INJECTED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\0da8a024e328e8702a404c0a1920259e\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml
+		ADDED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml
+		INJECTED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml
+		ADDED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml
+		INJECTED from D:\play_work\FreeRecyclerView\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\0da8a024e328e8702a404c0a1920259e\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-beta1.aar\85d92bc765a4e171534574e18f22df79\AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-beta1.aar\85d92bc765a4e171534574e18f22df79\AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\d5de3e1d2fc2e00c46bbe35bb017b158\AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\d5de3e1d2fc2e00c46bbe35bb017b158\AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\850dd6ed2b6c508f3e014c9f3ad499f0\AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\850dd6ed2b6c508f3e014c9f3ad499f0\AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\2f0b8ffeaff50c8f577417a2575a71ba\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\2f0b8ffeaff50c8f577417a2575a71ba\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\4d1961c3f2c464cd8018797aa187f83e\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\4d1961c3f2c464cd8018797aa187f83e\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\e78a6653f5b184895c185594f05ca377\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\e78a6653f5b184895c185594f05ca377\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\604150471559453551cea53bac2136da\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\604150471559453551cea53bac2136da\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\e510cec66763ef38a64c7b563b3ae4d0\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\e510cec66763ef38a64c7b563b3ae4d0\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\c996859c05cb8009ceae7a0534906eda\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\c996859c05cb8009ceae7a0534906eda\AndroidManifest.xml:26:9-28:44
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\0da8a024e328e8702a404c0a1920259e\AndroidManifest.xml:28:13-41
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\mytao\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\0da8a024e328e8702a404c0a1920259e\AndroidManifest.xml:27:13-51
