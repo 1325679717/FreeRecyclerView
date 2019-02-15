@@ -9,9 +9,7 @@ import android.widget.HorizontalScrollView;
  * myt.
  */
 public class AnimateScrollView extends HorizontalScrollView {
-    private FreeRecyclerView myRecyclerView;
     private ScrollBridge scrollBridge;
-    private VelocityTracker velocityTracker = null;
     public AnimateScrollView(Context context) {
         super(context);
         setOverScrollMode(OVER_SCROLL_NEVER);
