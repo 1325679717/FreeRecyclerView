@@ -9,6 +9,7 @@ import android.widget.TextView;
 import com.example.free_recyclerview.R;
 import com.example.free_recyclerview.bean.Data;
 import com.example.free_recyclerview.view.AnimateScrollView;
+import com.example.free_recyclerview.view.FreeRecyclerView;
 
 import java.util.List;
 
@@ -18,8 +19,8 @@ import java.util.List;
 public class TabAdapter extends RecyclerView.Adapter<TabAdapter.AdapterViewHolder>{
 
     private List<Data> datas;
-    private RecyclerView recyclerView;
-    public TabAdapter(List<Data> datas, RecyclerView recyclerView) {
+    private FreeRecyclerView recyclerView;
+    public TabAdapter(List<Data> datas, FreeRecyclerView recyclerView) {
         this.datas = datas;
         this.recyclerView = recyclerView;
     }
@@ -59,7 +60,7 @@ public class TabAdapter extends RecyclerView.Adapter<TabAdapter.AdapterViewHolde
             textView = (TextView) itemView.findViewById(R.id.tv);
             anScrView = (AnimateScrollView) itemView.findViewById(R.id.scrollView);
             tabRoot = (LinearLayout) itemView.findViewById(R.id.tab_root);
-            anScrView.setTag(recyclerView);
+            anScrView.setScrollBridge(recyclerView);
             tabTv = new TextView[len];
             addRow(tabRoot,tabTv,len);
         }

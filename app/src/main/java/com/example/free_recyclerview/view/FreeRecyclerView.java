@@ -16,7 +16,7 @@ import com.example.free_recyclerview.adapter.HeaderWrapper;
  * Created by Administrator on 2017/8/7.
  */
 
-public class FreeRecyclerView extends RecyclerView {
+public class FreeRecyclerView extends RecyclerView implements ScrollBridge{
 
     private int firstVisibleItemPosition = 0;
     private int lastVisibleItemPosition = 0;
@@ -86,6 +86,7 @@ public class FreeRecyclerView extends RecyclerView {
      * 当某个item滚动的时候，屏幕内的其他item跟着滚动
      * @param moveX
      */
+    @Override
     public void scrollTo(int moveX){
         this.offset = moveX;
         findEyeablePosition();
@@ -139,6 +140,7 @@ public class FreeRecyclerView extends RecyclerView {
 
 
 
+    @Override
     protected void dispatchDraw(Canvas canvas) {
         super.dispatchDraw(canvas);
         if (mCurrentHeader == null)

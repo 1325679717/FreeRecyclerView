@@ -10,12 +10,16 @@ import android.widget.HorizontalScrollView;
  */
 public class AnimateScrollView extends HorizontalScrollView {
     private FreeRecyclerView myRecyclerView;
-
+    private ScrollBridge scrollBridge;
     private VelocityTracker velocityTracker = null;
     public AnimateScrollView(Context context) {
         super(context);
         setOverScrollMode(OVER_SCROLL_NEVER);
 
+    }
+
+    public void setScrollBridge(ScrollBridge scrollBridge) {
+        this.scrollBridge = scrollBridge;
     }
 
     public AnimateScrollView(Context context, AttributeSet attrs) {
@@ -25,13 +29,9 @@ public class AnimateScrollView extends HorizontalScrollView {
     @Override
     protected void onScrollChanged(int l, int t, int oldl, int oldt) {
         super.onScrollChanged(l, t, oldl, oldt);
-        getMyRecyclerView().scrollTo(l);
-    }
-    private FreeRecyclerView getMyRecyclerView(){
-        if (myRecyclerView == null){
-            myRecyclerView = (FreeRecyclerView)getTag();
+        if (scrollBridge != null) {
+            scrollBridge.scrollTo(l);
         }
-        return myRecyclerView;
     }
 
 }
